@@ -2,10 +2,10 @@ import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-import HomeScreen from "./screens/HomeScreen";
-import TravelerScreen from "./screens/TravelerScreen";
-import ChatbotScreen from "./screens/ChatbotScreen";
-import OfficerDashboard from "./screens/OfficerDashboard";
+import HomeScreen from "../screens/HomeScreen";
+import TravelerScreen from "../screens/TravelerScreen";
+import ChatbotScreen from "../screens/ChatbotScreen";
+import OfficerDashboard from "../screens/OfficerDashboard";
 
 const Stack = createNativeStackNavigator();
 
